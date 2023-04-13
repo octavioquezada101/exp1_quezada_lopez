@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*background: linear-gradient(#0a122a,black) ;  degradado*/ 
+    color: white;
+    background-color: #0a122a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+/**/
+
+.header .menu li a{
+    background-color: #000;
+}
+   
+.header .menu li a:hover{
+    border: 5px;
+    box-shadow: 0 0 15px;
+    transition: all 0.5s ease;
+    background-color: #899B9F;
+    border-radius: 5px; 
+}
+
+.header{
+    height: 100px;
+    background: black;  
+}
+    
+
+.menu li {
+    display: inline-block;
+    background: #000;
+}
+    
+.menu{
+    float: right;    
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #000;
+}
+    
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+ul{
+    background-color: black; 
+}   
+
+.table{
+text-align: center;
+text-align: justify;   
+}
+
+/*fin header*/
+
+
+/*inicio section*/
+.section_1{
+    padding: 5px;
+    border: 5px;
+}
+.section p{
+    background-color: black;
+}
+
+.table p {
+text-align: center;
+text-align: justify;
+text-size-adjust: 10;
+vertical-align: top;
+background-color: #000;
+}
+
+
+h1{
+    text-align: center; 
+    text-shadow: 1px 2px 2px black, 0 0 25px #899B9F, 0 0 5px #899B9F;
+    box-shadow: white;
+    text-size-adjust:15 ;
+}
+td img{
+ border-radius: 50%;
+ align-items: center;  
+}
+
+td img:hover{
+    border: 5px;
+    box-shadow: 0 0 15px;
+    transition: all 0.5s ease;
+    background-color: #899B9F;
+    border-radius: 5px; 
+
+}
+
+.tabla_2 td {
+    padding: 20px;
+    text-align: justify;
+    text-align: center;
+    vertical-align: top;
+   margin: 10px;
+    border: 10px;
+}
+
+.tabla_1 td{
+    padding: 20px;
+    text-align: justify;
+    text-align: center;
+    vertical-align: top;
+   margin: 10px;
+    border: 10px;
+
+}
+
+/*fin section*/
+
+/*inicio footer*/
+
+.footer{
+    flex-direction: column;    
+    background-color:#899B9F;   
+    border: #899B9F;
+    height: 55px;
+    position: relative;
+    border: 5px;
+}
+
+.footer img{
+    float: right;
+    background: #899B9F;
+    padding-top: 9px;
+    padding-right: 5px;   
+   
+    
+}
+
+.footer p{
+    padding-top: 5px;    
+    text-align: left;
+    background: #899B9F;
+    text-shadow: 1px 2px 2px black, 0 0 25px #899B9F, 0 0 5px #899B9F;
+}
+
+/*final footer*/
+
